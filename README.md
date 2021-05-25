@@ -33,7 +33,7 @@ our code from immediately firing when `index.js` is loaded.
 
 ## Set Up an Event Listener for DOMContentLoaded
 
-As always, `addEventListener` takes a `String` with the name of the
+As always, `addEventListener` takes a `string` with the name of the
 event and a _callback function_.
 
 ```js
