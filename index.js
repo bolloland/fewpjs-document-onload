@@ -1,5 +1,6 @@
-// Your code goes here
-document.addEventListener("DOMContentLoaded", function() {
-    const changeText = document.getElementById("text");
-    changeText.innerHTML = 'This is really cool!';
-});
+document.addEventListener("DOMContentLoaded", () => {
+    let textBox = document.querySelector("#text")
+    textBox.innerHTML = "This is really cool!"
+  }); 
+
+  console.log("me first!!")
